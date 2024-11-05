@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "1001975200806")
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "6252395788").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -169,7 +169,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split("AgF79FMAj8beIP0pUCbZ8dwKK5hF3wk5MVPkqIU5wreZMlUJZBn7CAVd1UwVMC18OkX9abKZvB-F-wZq-MyE4kfcXhpCH_kh_MsVPVecJ-Pbbq2-W8SW6vD7Q28uMRLInyRFeXeUwffBr0WoNY73hQB_HpxC6eRrVQ2zrQ8XgN3bXM5nQldrR6hf8jpYhYfHsnZbsRsAiC80-FGgfbqLR3Im2yIdv-6OZysJyWxvomQY_yxhtS3BmvkXeOO0PXduqiS6NHsxJ9E3p_wN_VecBDEKIASH2EajRcojbJ5PujQZ0EYOekmjOtNY_7kSoppRjOHXje8hKC90N7RuyrBswcpMeGz9zgAAAAF0q_0MAA")))
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
